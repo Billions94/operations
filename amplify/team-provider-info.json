@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-operations-dev-230650-authRole",
+      "UnauthRoleArn": "arn:aws:iam::542256507213:role/amplify-operations-dev-230650-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::542256507213:role/amplify-operations-dev-230650-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-operations-dev-230650-deployment",
+      "UnauthRoleName": "amplify-operations-dev-230650-unauthRole",
+      "StackName": "amplify-operations-dev-230650",
+      "StackId": "arn:aws:cloudformation:eu-central-1:542256507213:stack/amplify-operations-dev-230650/bbd02420-9d99-11ec-81ba-06a20de5cef6",
+      "AmplifyAppId": "do8gj2czqnrsc"
+    },
+    "categories": {
+      "function": {
+        "mySongFunc": {
+          "deploymentBucketName": "amplify-operations-dev-230650-deployment",
+          "s3Key": "amplify-builds/mySongFunc-39536441774d6439786f-build.zip"
+        }
+      }
+    }
+  }
+}
