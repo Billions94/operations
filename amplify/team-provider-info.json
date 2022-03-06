@@ -15,7 +15,7 @@
       "function": {
         "mySongFunc": {
           "deploymentBucketName": "amplify-operations-dev-230650-deployment",
-          "s3Key": "amplify-builds/mySongFunc-39536441774d6439786f-build.zip"
+          "s3Key": "amplify-builds/mySongFunc-425a68786c417a4a5378-build.zip"
         }
       }
     }
