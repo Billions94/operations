@@ -1,0 +1,14 @@
+{
+  "resourceName": "mysongsdb",
+  "tableName": "mysongsdb",
+  "partitionKey": {
+    "fieldName": "title",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "artist",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

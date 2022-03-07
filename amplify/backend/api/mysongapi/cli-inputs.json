@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/songs": {
+      "name": "/songs",
+      "lambdaFunction": "mysongfunc",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}
