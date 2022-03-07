@@ -9,7 +9,8 @@
       "UnauthRoleName": "amplify-operations-dev-230650-unauthRole",
       "StackName": "amplify-operations-dev-230650",
       "StackId": "arn:aws:cloudformation:eu-central-1:542256507213:stack/amplify-operations-dev-230650/bbd02420-9d99-11ec-81ba-06a20de5cef6",
-      "AmplifyAppId": "do8gj2czqnrsc"
+      "AmplifyAppId": "do8gj2czqnrsc",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-operations-dev-230650-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "function": {
@@ -17,6 +18,34 @@
           "deploymentBucketName": "amplify-operations-dev-230650-deployment",
           "s3Key": "amplify-builds/mySongFunc-425a68786c417a4a5378-build.zip"
         }
+      },
+      "auth": {
+        "operationsd7be60b5": {}
+      }
+    }
+  },
+  "newop": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-operations-newop-12939-authRole",
+      "UnauthRoleArn": "arn:aws:iam::542256507213:role/amplify-operations-newop-12939-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::542256507213:role/amplify-operations-newop-12939-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-operations-newop-12939-deployment",
+      "UnauthRoleName": "amplify-operations-newop-12939-unauthRole",
+      "StackName": "amplify-operations-newop-12939",
+      "StackId": "arn:aws:cloudformation:eu-central-1:542256507213:stack/amplify-operations-newop-12939/ad564d20-9dad-11ec-9f07-02256cf765b8",
+      "AmplifyAppId": "do8gj2czqnrsc",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-operations-newop-12939-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "function": {
+        "mySongFunc": {
+          "deploymentBucketName": "amplify-operations-newop-12939-deployment",
+          "s3Key": "amplify-builds/mySongFunc-3352387250704f536c5a-build.zip"
+        }
+      },
+      "auth": {
+        "operationsd7be60b5": {}
       }
     }
   }

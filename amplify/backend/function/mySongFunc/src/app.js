@@ -39,9 +39,16 @@ app.get("/songs/*", function (req, res) {
  * Example post method *
  ****************************/
 
-app.post("/songs", function (req, res) {
-  // Add your code here
-  res.json({ success: "post call succeed!", url: req.url, body: req.body })
+app.post("/jobs", function (req, res) {
+  try {
+    const search = req.body.search ? 'react' : req.body.search
+    const { data } = await axios.get(`https://jobs.github.com/positions.json?search?q=${search}`)
+    res.json({
+      success: "post call succeed!",
+      url: req.url,
+      songs: data
+    })
+  } catch (error) {console.log(error)}
 })
 
 app.post("/songs/*", function (req, res) {

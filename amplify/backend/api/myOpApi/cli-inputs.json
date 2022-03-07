@@ -5,6 +5,19 @@
       "name": "/songs",
       "lambdaFunction": "mySongFunc",
       "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/jobs": {
+      "name": "/jobs",
+      "lambdaFunction": "mySongFunc",
+      "permissions": {
         "setting": "open"
       }
     }
