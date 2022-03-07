@@ -36,17 +36,6 @@
       "StackId": "arn:aws:cloudformation:eu-central-1:542256507213:stack/amplify-operations-newop-12939/ad564d20-9dad-11ec-9f07-02256cf765b8",
       "AmplifyAppId": "do8gj2czqnrsc",
       "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-operations-newop-12939-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
-    },
-    "categories": {
-      "function": {
-        "mySongFunc": {
-          "deploymentBucketName": "amplify-operations-newop-12939-deployment",
-          "s3Key": "amplify-builds/mySongFunc-3352387250704f536c5a-build.zip"
-        }
-      },
-      "auth": {
-        "operationsd7be60b5": {}
-      }
     }
   }
 }
